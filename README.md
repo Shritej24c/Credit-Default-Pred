@@ -47,8 +47,11 @@ The following combinations in the grid search:
 <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '500' height = '300' style="float:right">
 
 Plot 1 : Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y is small, therefore lowest bias preferred) 
+
 Plot 2: Linear relationship between AUC train and test2, therefore highest AUC train preferred
 
+** Final XGBoost Model Parameters **
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/xgb%20final.png)
 
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png)
