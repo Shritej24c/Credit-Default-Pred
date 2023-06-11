@@ -78,21 +78,14 @@ Data Processing
 **NN Grid Search**
 
 Combination of Hyper-Parameters in the grid search:
-Number of hidden layers: 2, 4 – 4 to increase the complexity to get low bias and 2 for faster runtime 
-nodes in each hidden layer: 4, 6 – 2 for simple neural network and 6 for complex neural network 
-Activation function: ReLu, Tanh – ReLu isn’t saturated/zero-centered, tanh causes vanishing gradients 
-Dropout regularization: 50%, 100% (no dropout) – 50% to decrease complexity and avoid overfitting
-Batch size: 100, 10000 – 100 not low enough to overfit every batch and 10000 for faster processing 
+1. Number of hidden layers: 2, 4 – 4 to increase the complexity to get low bias and 2 for faster runtime 
+2. nodes in each hidden layer: 4, 6 – 2 for simple neural network and 6 for complex neural network 
+3. Activation function: ReLu, Tanh – ReLu isn’t saturated/zero-centered, tanh causes vanishing gradients 
+4. Dropout regularization: 50%, 100% (no dropout) – 50% to decrease complexity and avoid overfitting
+5. Batch size: 100, 10000 – 100 not low enough to overfit every batch and 10000 for faster processing 
 
 
 <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.57.47%20PM.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.58.25%20PM.png width = '500' height = '300' style="float:right">
-
-
-**NN Rank Ordering**
-
-Rank ordering here checks if the threshold is increased then we can see that the default keeps increasing for larger threshold brackets
-
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/rank_nn.png)
 
 **Final Model**
 
