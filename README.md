@@ -14,4 +14,9 @@ Historical Credit Card (CC) data consists of 458,913 customers spread across 13 
 Target Variable = 1 if customer default on CC payment
       = 0 if customer didn’t default
 
+**Features**
+
+All Features divided into 5 categories:
+	Delinquency, Payment, Balance, Risk & Spend
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/total%20features.png)
 
