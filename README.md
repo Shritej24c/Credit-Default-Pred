@@ -35,7 +35,7 @@ Built 2 XGBoost models to rank features according to their feature importance sc
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/feat_imp-PhotoRoom.png-PhotoRoom.png)
 
 
-**XGBoost - Grid Search **
+**XGBoost - Grid Search**
 
 The following combinations in the grid search:
 1. Number of trees: 50, 100, and 300 : 50 to decrease the complexity and the variance, then we tried 300 for lower bias 
@@ -50,8 +50,54 @@ Plot 1 : Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y i
 
 Plot 2: Linear relationship between AUC train and test2, therefore highest AUC train preferred
 
-** Final XGBoost Model Parameters **
+**Final XGBoost Model Parameters**
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/xgb%20final.png)
+
+**Rank Ordering**
+
+Rank ordering here checks if the threshold is increased then we can see that the default keeps increasing for larger threshold brackets
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.45.52%20PM.png)
+
+**SHAP Analysis**
+
+BeeSwarm - Explains cumulative impact of features on model 
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.50.18%20PM.png)
+
+P_2 higher values drive the score down meaning higher the payment variable lower will be probability of default
+
+Most features increase their  impact on model output with higher feature value
+
+
+Waterfall - Explains prediction for specific observation  
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.52.41%20PM.png)
+Expected Model Output = -1.308, Output for 1100th customer = -4.311
+
+P_2 singlehandedly drives prediction down by 1.26 whereas 37 other features collectively drive it down by 1.17
+
+
+**Neural Network**
+
+Data Processing 
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/NN%20data%20processing.png)
+
+**NN Grid Search**
+
+Combination of Hyper-Parameters in the grid search:
+Number of hidden layers: 2, 4 – 4 to increase the complexity to get low bias and 2 for faster runtime 
+# nodes in each hidden layer: 4, 6 – 2 for simple neural network and 6 for complex neural network 
+Activation function: ReLu, Tanh – ReLu isn’t saturated/zero-centered, tanh causes vanishing gradients 
+Dropout regularization: 50%, 100% (no dropout) – 50% to decrease complexity and avoid overfitting
+Batch size: 100, 10000 – 100 not low enough to overfit every batch and 10000 for faster processing 
+
+
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.57.47%20PM.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.58.25%20PM.png width = '500' height = '300' style="float:right">
+
+
+
+
 
 
