@@ -71,10 +71,6 @@ P_2 singlehandedly drives prediction down by 1.26 whereas 37 other features coll
 
 **Neural Network**
 
-Data Processing 
-
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/NN%20data%20processing.png)
-
 **NN Grid Search**
 
 Combination of Hyper-Parameters in the grid search:
