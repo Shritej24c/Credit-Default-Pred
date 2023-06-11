@@ -44,6 +44,6 @@ The following combinations in the grid search:
 4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training and 100% for better results and low bias
 5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '400' height = '225'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '400' height = '225' style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '450' height = '225'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '450' height = '225' style="float:right">
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png)
