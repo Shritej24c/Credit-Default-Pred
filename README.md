@@ -11,8 +11,7 @@ Now, given the huge amount of data on customers is readily available and the num
 Historical Credit Card (CC) data consists of 458,913 customers spread across 13 months on 190 variables in categories like Payment, Spend and Balance
 30k – 40k observation each month and % of customers defaulted in each month [23%, 28%]
 
-
 Target Variable = 1 if customer default on CC payment
       = 0 if customer didn’t default
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/data%20summary.png)
+
 
