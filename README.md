@@ -46,3 +46,5 @@ The following combinations in the grid search:
 
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png)
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png)
