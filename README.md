@@ -26,7 +26,7 @@ Test1 and Test2 before and after the training period to maintain randomness of u
 
 Default Rate increases with Time
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/sampling.png width="400" height="225" style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/sampling.png width="500" height="225" style="float:right">
 
 **Feature Selection**
 
