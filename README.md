@@ -20,14 +20,6 @@ All Features divided into 5 categories: Delinquency, Payment, Balance, Risk & Sp
 
 <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/total%20features.png width="200" height="225" style="float:right">
 
-**Sampling**
-
-Test1 and Test2 before and after the training period to maintain randomness of unseen data and not create bias due to time period
-
-Default Rate increases with Time
-
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/sampling.png width="700" height="225" style="float:right">
-
 **Feature Selection**
 
 Built 2 XGBoost models to rank features according to their feature importance score. 
