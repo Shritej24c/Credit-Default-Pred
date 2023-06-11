@@ -18,6 +18,5 @@ Target Variable = 1 if customer default on CC payment
 
 All Features divided into 5 categories:
 	Delinquency, Payment, Balance, Risk & Spend
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/total%20features.png =50x50)
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/total%20features.png width="100" height="100">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/total%20features.png width="200" height="200">
