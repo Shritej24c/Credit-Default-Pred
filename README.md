@@ -49,7 +49,8 @@ Plot 2: Linear relationship between AUC train and test2, therefore highest AUC t
 
 Rank ordering here checks if the threshold is increased then we can see that the default keeps increasing for larger threshold brackets
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.45.52%20PM.png)
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.45.52%20PM.png width = '500' height = '300'>
+
 
 **SHAP Analysis**
 
