@@ -32,4 +32,4 @@ Default Rate increases with Time
 
 Built 2 XGBoost models to rank features according to their feature importance score. 
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/feat_imp.png)
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/feat_imp-PhotoRoom.png-PhotoRoom.png)
