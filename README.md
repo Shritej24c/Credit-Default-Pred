@@ -26,10 +26,23 @@ Test1 and Test2 before and after the training period to maintain randomness of u
 
 Default Rate increases with Time
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/sampling.png width="500" height="225" style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/sampling.png width="700" height="225" style="float:right">
 
 **Feature Selection**
 
 Built 2 XGBoost models to rank features according to their feature importance score. 
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/feat_imp-PhotoRoom.png-PhotoRoom.png)
+
+
+**XGBoost - Grid Search **
+
+The following combinations in the grid search:
+1. Number of trees: 50, 100, and 300 : 50 to decrease the complexity and the variance, then we tried 300 for lower bias 
+2. Learning Rate: 0.01, 0.1 :  0.1 – Conventional and 0.01 to validate if slower learning rate arrive at global minima smoothly without overshooting
+3. % of observations used in each tree: 50%, 80% - 50% for faster training & 80% to avoid overfitting
+4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training and 100% for better results and low bias
+5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
+
+
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1-fotor-bg-remover-20230611154828.png)
