@@ -45,6 +45,6 @@ The following combinations in the grid search:
 5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
 
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png)
-
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '500' height = '225'>
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '500' height = '225'>
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png)
