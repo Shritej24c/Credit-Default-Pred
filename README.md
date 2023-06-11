@@ -44,6 +44,11 @@ The following combinations in the grid search:
 4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training and 100% for better results and low bias
 5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '450' height = '225'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '450' height = '225' style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '480' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '480' height = '300' style="float:right">
+
+Plot 1 : Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y is small, therefore lowest bias preferred) 
+Plot 2: Linear relationship between AUC train and test2, therefore highest AUC train preferred
+
+
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png)
