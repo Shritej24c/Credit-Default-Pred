@@ -103,6 +103,7 @@ The conservative strategy has a lower threshold compared with aggressive one; he
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/ex%20strategy%20final.png)
 
 0.5 – Aggressive strategy because we want to increase our Revenue while maintaining the default rate below 10%
+
 0.3 – Conservative Strategy because the default decreases almost by half but revenue isn’t drastically affected
 
 
