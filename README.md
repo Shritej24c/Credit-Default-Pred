@@ -35,7 +35,7 @@ The following combinations in the grid search:
 4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training and 100% for better results and low bias
 5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1%20(1).png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2%20(2).png width = '500' height = '300' style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2.png width = '500' height = '300' style="float:right">
 
 Plot 1 : Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y is small, therefore lowest bias preferred) 
 
@@ -56,7 +56,7 @@ Rank ordering here checks if the threshold is increased then we can see that the
 
 BeeSwarm - Explains cumulative impact of features on model 
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.50.18%20PM.png)
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/beeswarm.png)
 
 P_2 higher values drive the score down meaning higher the payment variable lower will be probability of default
 
@@ -64,7 +64,7 @@ Most features increase their  impact on model output with higher feature value
 
 
 Waterfall - Explains prediction for specific observation  
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.52.41%20PM.png)
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/waterfall.png)
 Expected Model Output = -1.308, Output for 1100th customer = -4.311
 
 P_2 singlehandedly drives prediction down by 1.26 whereas 37 other features collectively drive it down by 1.17
@@ -82,7 +82,7 @@ Combination of Hyper-Parameters in the grid search:
 5. Batch size: 100, 10000 – 100 not low enough to overfit every batch and 10000 for faster processing 
 
 
-<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.57.47%20PM.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%205.58.25%20PM.png width = '500' height = '300' style="float:right">
+<img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/NN%20Plot1.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/NN%20Plot%202.png width = '500' height = '300' style="float:right">
 
 **Final Model**
 
@@ -101,7 +101,7 @@ Explanability – Winner XGBoost ( SHAP Analysis)
 The conservative strategy has a lower threshold compared with aggressive one; hence accepts less applicants.
 
 
-![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Screenshot%202023-06-11%20at%206.07.28%20PM.png)
+![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/ex%20strategy.png)
 
 0.5 – Aggressive strategy because we want to increase our Revenue while maintaining the default rate below 10%
 0.3 – Conservative Strategy because the default decreases almost by half but revenue isn’t drastically affected
