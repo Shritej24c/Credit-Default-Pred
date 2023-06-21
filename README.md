@@ -10,12 +10,12 @@ Now, given the huge amount of data on customers is readily available and the num
 Historical Credit Card (CC) data consists of 458,913 customers spread across 13 months on 190 variables in categories like Payment, Spend and Balance
 30k – 40k observation each month and % of customers defaulted in each month [23%, 28%]
 
-Target Variable = 1 if customer default on CC payment
-                = 0 if customer didn’t default
+Target Variable = 1 if the customer default on CC payment
+                = 0 if the customer didn’t default
 
 **Features**
 
-All Features divided into 5 categories: Delinquency, Payment, Balance, Risk & Spend 
+All Features are divided into 5 categories: Delinquency, Payment, Balance, Risk & Spend 
 
 
 **Feature Selection**
@@ -28,15 +28,15 @@ Built 2 XGBoost models to rank features according to their feature importance sc
 **XGBoost - Grid Search**
 
 The following combinations in the grid search:
-1. Number of trees: 50, 100, and 300 : 50 to decrease the complexity and the variance, then we tried 300 for lower bias 
-2. Learning Rate: 0.01, 0.1 :  0.1 – Conventional and 0.01 to validate if slower learning rate arrive at global minima smoothly without overshooting
+1. Number of trees: 50, 100, and 300: 50 to decrease the complexity and the variance, then we tried 300 for lower bias 
+2. Learning Rate: 0.01, 0.1:  0.1 – Conventional and 0.01 to validate if slower learning rate arrive at global minima smoothly without overshooting
 3. % of observations used in each tree: 50%, 80% - 50% for faster training & 80% to avoid overfitting
-4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training and 100% for better results and low bias
-5. Weight of default observations: 1, 5, 10 – Since most of are non-default we need weights > 1 
+4. % of features used in each tree: 50%, 100% - 50% again to avoid overfitting and faster training, and 100% for better results and low bias
+5. Weight of default observations: 1, 5, 10 – Since most of our non-default we need weights > 1 
 
 <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/Xgb%20plot1.png width = '500' height = '300'> <img src = https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/XGB%20plot2.png width = '500' height = '300' style="float:right">
 
-Plot 1 : Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y is small, therefore lowest bias preferred) 
+Plot 1: Technically, Bias-Variance Tradeoff at X=0.94 & Y = 0.0075 (diff in Y is small, therefore lowest bias preferred) 
 
 Plot 2: Linear relationship between AUC train and test2, therefore highest AUC train preferred
 
@@ -53,7 +53,7 @@ Rank ordering here checks if the threshold is increased then we can see that the
 
 **SHAP Analysis**
 
-BeeSwarm - Explains cumulative impact of features on model 
+BeeSwarm - Explains the cumulative impact of features on model 
 
 ![image](https://github.com/Shritej24c/Credit-Risk/blob/main/Graphs/beeswarm.png)
 
